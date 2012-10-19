@@ -1,0 +1,1619 @@
+
+/* xcp_viewer/resources/css/xcp/document-viewer/xcp-document-viewer.css */
+
+/**
+*  This file contains all the xcp variables that is modifiable by the theme editor
+*/
+/** Default font **/
+/** Widget Label Text **/
+/** Widget Value Text **/
+/** Widget Title Text **/
+/** Widget Button Text **/
+/** Link Text **/
+/** Widget Interior **/
+/** Widget Border **/
+/** Widget Header **/
+/** Widget Button **/
+/** Widget Panel **/
+/** Widget Labels **/
+/** Framework Tab **/
+/** App Menu Background **/
+/** App Menu Border **/
+/** App Menu button **/
+/** Case Menu **/
+/** Master Background **/
+/** Page Background **/
+/** Context menu item **/
+/** load mask **/
+/** Toolbar **/
+/* line 4, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmDocumentViewer {
+  width: 100% !important;
+  height: 100% !important;
+  position: relative;
+}
+
+/* line 11, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmDocumentViewer-search-highlight {
+  background-color: yellow;
+  filter: alpha(opacity=33);
+  -moz-opacity: 0.33;
+  opacity: 0.33;
+  position: absolute;
+}
+
+/* line 19, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmDocumentViewer-selected-highlight {
+  background-color: #ff8800 !important;
+}
+
+/* line 23, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerPreviousSearchButton {
+  border-style: none;
+  background-image: none !important;
+  background-color: transparent;
+}
+
+/* line 29, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerNextSearchButton {
+  border-style: none;
+  background-image: none !important;
+  background-color: transparent;
+}
+
+/* line 35, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerSearchMenu {
+  border-radius: 6px;
+}
+
+/* line 39, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerHitCount {
+  font-family: Tahoma, Geneva, Verdana, "Trebuchet MS", Arial, sans-serif;
+  font: Tahoma, Geneva, Verdana, "Trebuchet MS", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  color: #555555;
+  padding-top: 2px;
+}
+
+/* line 44, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerSearchBox {
+  font-family: Tahoma, Geneva, Verdana, "Trebuchet MS", Arial, sans-serif;
+  font: Tahoma, Geneva, Verdana, "Trebuchet MS", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  color: #555555;
+  font-family: Tahoma, Geneva, Verdana, "Trebuchet MS", Arial, sans-serif !important;
+  font-size: 12px !important;
+  font-weight: normal !important;
+  color: #555 !important;
+}
+
+/* line 52, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerSearchControls {
+  padding: 3px 3px 3px 3px;
+}
+
+/* line 56, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmPageDataView div .rmPageContainer {
+  background: #f1f1f1;
+  padding: 5px;
+  text-align: center !important;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  /*display: table-cell;*/
+  overflow: hidden;
+  display: inline-block;
+  text-align: center !important;
+}
+
+/* line 69, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmPageDataView .rmPageContainer img {
+  /*display: block;*/
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+}
+
+/* line 76, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmPageDataView .rmPageContainer-wrap {
+  margin-right: auto;
+  margin-left: auto;
+  /*padding: 5px;*/
+}
+
+/* line 82, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmPageDataView .rmPageContainer-wrap span {
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  /*width: 86px;*/
+  /*for ie to ensure that the text is centered*/
+}
+
+/* line 91, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmPageDataView .x-grid-view {
+  overflow: auto;
+}
+
+/* line 95, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerToolBar {
+  font-size: 11px;
+  height: 25px !important;
+  padding: 0 0 0 2px;
+  width: 100% !important;
+}
+
+/* line 102, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmDocumentPageViewer {
+  height: 100% !important;
+}
+
+/* line 106, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmDocumentPageViewer .x-panel-body {
+  border-style: none;
+  border-width: 0px;
+}
+
+/* line 111, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentHoverPanel {
+  width: 250px;
+  height: 100px;
+  border: 1px;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+/* line 119, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmHoverTopBar {
+  width: 100%;
+  text-align: left;
+  vertical-align: top;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* line 129, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmHoverBottomBar {
+  color: #808080;
+  text-align: left;
+  vertical-align: top;
+  margin: 5px;
+}
+
+/* line 136, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentPreviewContent {
+  text-align: left;
+  vertical-align: top;
+  margin: 5px;
+  overflow: hidden;
+}
+
+/* line 143, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentPreviewSeparator {
+  height: 2px;
+  /*border-top: solid 1px #000000;*/
+  /*background-color: white;*/
+  margin: 2px 0;
+  overflow: hidden;
+}
+
+/* line 151, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentPreviewLowerSeparator {
+  height: 2px;
+  border-top: solid 1px #E0E0E0;
+  background-color: white;
+  margin: 2px 0;
+  overflow: hidden;
+  /*filter: alpha(opacity=50);
+  -moz-opacity: 0.5;
+  opacity: 0.5;*/
+}
+
+/* line 162, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentMarker {
+  height: 15px;
+  width: 100%;
+  border: none;
+  border-radius: 2px;
+  vertical-align: middle;
+  margin-left: 2px;
+  margin-right: 2px;
+  cursor: default;
+}
+
+/* line 173, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentNumber {
+  margin-top: 2px;
+  margin-right: 3px;
+  margin-left: 2px;
+  margin-bottom: 2px;
+  vertical-align: middle;
+}
+
+/* line 181, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmComment-unread {
+  background-color: #FFFFCC !important;
+  /* fixed */
+}
+
+/* line 185, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmComment-read {
+  background-color: white !important;
+  /* fixed */
+}
+
+/* line 189, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentIcon {
+  margin-right: 2px;
+  /*margin-left: 2px;*/
+  margin-left: 1px;
+  margin-bottom: 2px;
+}
+
+/* line 197, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.pageView {
+  padding: 0px;
+}
+
+/* line 201, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmPageDataView div .x-grid-header-ct .x-grid-header-ct-hidden .x-grid-header-ct-default .x-docked .x-docked-top .x-grid-header-ct-docked-top .x-grid-header-ct-default-docked-top .x-box-layout-ct {
+  border-style: none;
+  border-width: 0px;
+}
+
+/* line 206, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmPageDataView div .x-panel-body .x-grid-body {
+  border-style: none;
+  border-width: 0px;
+  top: 0px;
+}
+
+/* line 212, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmPageDataView td .x-grid-row .x-grid-cell {
+  border-style: none;
+  border-width: 0px;
+  height: auto !important;
+}
+
+/* line 218, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmPageDataView .x-grid-row .x-grid-cell {
+  border-style: none;
+  border-width: 0px;
+  height: auto !important;
+}
+
+/* line 224, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmPageDataView td .x-grid-cell-inner {
+  /*display: table;
+  table-layout:fixed;*/
+  text-align: center !important;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 0px 0px;
+  border-style: none;
+  background: none repeat scroll 0 0 #F1F1F1;
+}
+
+/* line 236, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmPageDataView td .x-grid-row {
+  line-height: 100px;
+  padding: 0px 0px;
+}
+
+/* line 241, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerCommentTree .x-grid-row .x-grid-cell-inner {
+  height: 100%;
+  vertical-align: middle;
+  cursor: auto;
+  padding: 0 0 0 2px;
+}
+
+/* line 248, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+span.rmBlankBlock {
+  display: block;
+}
+
+/* line 252, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerCommentTree .x-btn-default-small {
+  border-style: none;
+  padding: 2px 0px 2px 0px;
+  background-color: transparent;
+  background-image: none;
+}
+
+/* line 259, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.edit-comment {
+  background: url(xcp-core/icons/comment_edit.png) no-repeat;
+  /*width: 16px;*/
+  height: 16px;
+}
+
+/* line 265, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.delete-comment {
+  background: url(xcp-core/icons/comment_delete.png) no-repeat;
+  /*width: 16px;*/
+  height: 16px;
+}
+
+/* line 271, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.reply-comment {
+  background: url(xcp-core/icons/comment_add.png) no-repeat;
+  /*width: 16px;*/
+  height: 16px;
+}
+
+/* line 277, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.fit-to-height {
+  background: url(xcp-ivf-widgets/icons/viewer_fitheight_tool.png) no-repeat;
+}
+
+/* line 281, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.fit-to-width {
+  background: url(xcp-ivf-widgets/icons/viewer_fitwidth_tool.png) no-repeat;
+}
+
+/* line 285, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.viewer-next-page-enabled {
+  background: url(xcp-ivf-widgets/icons/page_next_tool.png) no-repeat;
+}
+
+/* line 289, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.viewer-prev-page-enabled {
+  background: url(xcp-ivf-widgets/icons/page_previous_tool.png) no-repeat;
+}
+
+/* line 293, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.x-viewer-form-clear-trigger {
+  background-image: url(xcp-ivf-widgets/icons/clear-trigger.gif);
+}
+
+/* line 297, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.x-viewer-form-search-trigger {
+  background-image: url(xcp-ivf-widgets/icons/search-trigger.gif);
+}
+
+/* line 301, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.viewer-add-comment {
+  background: url(xcp-core/icons/comment_add.png) no-repeat;
+}
+
+/* line 305, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.viewer-search-icon {
+  background: url(xcp-ivf-widgets/icons/search_tool.png) no-repeat;
+}
+
+/* line 309, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.x-btn-viewer-trigger-arrow {
+  background-image: url(xcp-core/icons/xcp-trigger-arrow.png);
+}
+
+/* line 313, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerPageField > div > input {
+  text-align: right;
+}
+
+/* line 317, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.viewer-comment-ovr {
+  background: url(xcp-ivf-widgets/icons/viewer_comment_ovr.png) no-repeat;
+  background-position: center center;
+  margin-left: 2px;
+  margin-right: 1px;
+  /*background-size: 100%;*/
+  /*background-color: #a2d576;*/
+}
+
+/* line 326, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.comment-marker-transparency {
+  filter: alpha(opacity=65);
+  -moz-opacity: 0.65;
+  opacity: 0.65;
+}
+
+/* line 332, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.viewer-comment-group-icon {
+  background: url(xcp-ivf-widgets/icons/viewer_comment_ovr.png) no-repeat scroll 2px center;
+  /*background-image: url("../icons/viewer_comment_ovr.png");*/
+}
+
+/* line 337, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerCommentTree .x-grid-view {
+  /*overflow: auto;*/
+  position: relative;
+  /*padding-left: 5px;*/
+}
+
+/* line 343, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerCommentTree {
+  overflow: hidden !important;
+  padding: 0px 5px 5px 5px;
+  background-color: white;
+}
+
+/* line 349, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmComment-reply-count {
+  font-family: Tahoma, Geneva, Verdana, "Trebuchet MS", Arial, sans-serif;
+  font: Tahoma, Geneva, Verdana, "Trebuchet MS", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  color: #555555;
+  font-family: Tahoma, Geneva, Verdana, "Trebuchet MS", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  font-color: #a2a2a2 !important;
+  cursor: default;
+}
+
+/* line 358, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmComment-unread-count {
+  color: #FF6600;
+  /* fixed */
+}
+
+/* line 362, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmHeaderReplyCount {
+  padding: 5px 0 5px 0;
+}
+
+/* line 366, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerCommentTree .x-panel-header {
+  padding: 5px 1px 5px 1px;
+}
+
+/* line 370, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerCommentTree .x-panel-header-default {
+  font-size: 11px;
+  line-height: 13px;
+  border-style: none;
+  background-image: none;
+  background-color: transparent;
+  width: 100% !important;
+}
+
+/* line 379, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerCommentTree .x-panel-header-text-default {
+  color: #555;
+  font-size: 11px;
+  font-weight: bold;
+  font-family: tahoma, arial, verdana, sans-serif;
+  padding: 0 0 0 0px;
+}
+
+/* line 387, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerCommentTree .x-toolbar {
+  border: 0px solid;
+  font-size: 10px;
+  padding: 0px 0px 0px 0px;
+  background-color: transparent;
+  width: 100% !important;
+}
+
+/* line 395, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerCommentHeader {
+  width: 100% !important;
+  top: 0px !important;
+  bottom: 0px !important;
+}
+
+/* line 401, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerCommentTree .x-panel-body-default {
+  border-style: none;
+  background-color: transparent;
+}
+
+/* line 406, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerCommentTree .x-panel-default {
+  border-style: none;
+}
+
+/* line 410, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerCommentTree .x-html-editor-wrap {
+  border: 0px none;
+}
+
+/* line 414, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentlist-comment {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: transparent;
+  height: 100% !important;
+  border-bottom: 1px solid #cccccc;
+  border-color: #cccccc;
+}
+
+/* line 423, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentlist-content {
+  color: #555555;
+  background-color: transparent;
+  font-size: 11px;
+  line-height: normal;
+  text-align: left;
+  padding: 5px 0px 5px 0px;
+  margin-bottom: 0px;
+  cursor: text;
+  white-space: normal;
+  overflow-y: auto;
+}
+
+/* line 436, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentlist-replyCount {
+  color: #555555;
+  background-color: transparent;
+  font-size: 11px;
+  line-height: normal;
+  text-align: left;
+  padding: 3px 3px 3px 0;
+  cursor: text;
+  white-space: normal;
+  overflow-y: auto;
+}
+
+/* line 448, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentlist-content-edit {
+  color: #555555;
+  font-size: 11px;
+  line-height: normal;
+  text-align: left;
+  padding: 0px 10px 0px 0;
+  cursor: text;
+}
+
+/* line 457, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentlist-content-view {
+  width: 100% !important;
+}
+
+/* line 461, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerCommentTree .x-toolbar-footer .x-box-inner {
+  width: 100% !important;
+}
+
+/* line 465, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerCommentTree .x-toolbar-footer {
+  margin-top: 0px;
+  padding: 5px 0px 5px 0px;
+  width: 100% !important;
+}
+
+/* line 471, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmComment-tool-bar .x-box-inner {
+  width: 100%;
+}
+
+/* line 475, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentReplyButton .x-btn-inner {
+  /*background: none;*/
+  border: none;
+  display: block;
+  text-decoration: underline;
+  padding: 0 15px 0 20px;
+}
+
+/* line 483, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentReplyButton .x-btn-inner:hover {
+  color: blue;
+}
+
+/* line 487, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentEditButton .x-btn-inner {
+  border: none;
+  display: block;
+  text-decoration: underline;
+  padding: 0 15px 0 20px;
+}
+
+/* line 494, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentEditButton .x-btn-inner:hover {
+  color: blue;
+}
+
+/* line 498, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentDeleteButton .x-btn-inner {
+  border: none;
+  display: block;
+  text-decoration: underline;
+  padding: 0 15px 0 20px;
+}
+
+/* line 505, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentDeleteButton .x-btn-inner:hover {
+  color: blue;
+}
+
+/* line 509, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerCommentThread .x-box-inner {
+  height: 16px;
+}
+
+/* line 513, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerRichHtmlWindow .x-box-inner {
+  height: 16px;
+}
+
+/* line 517, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerRichHtmlWindow .x-window-body {
+  overflow: hidden;
+}
+
+/* line 521, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentItemEditor {
+  width: 100% !important;
+}
+
+/* line 525, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentItemEditor .x-box-inner {
+  height: 0px;
+  padding: 0 0 2px 5px;
+  background-color: white;
+}
+
+/* line 531, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentHtmlEditor {
+  color: #555555;
+  font-size: 11px;
+  line-height: normal;
+  text-align: left;
+  padding: 0px 10px 0px 0px;
+  cursor: text;
+  width: 100% !important;
+  margin-bottom: 0px;
+}
+
+/* line 542, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentHtmlEditor .cke_skin_xcp iframe {
+  padding: 0px;
+}
+
+/* line 546, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentItemEditor .x-panel-header-text-default {
+  color: #555;
+  font-size: 11px;
+  font-weight: normal;
+  font-family: tahoma, arial, verdana, sans-serif;
+  padding: 0 0 0 5px;
+}
+
+/* line 554, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentItemEditor .x-panel-body-default {
+  border-style: solid;
+  background-color: white;
+  border-radius: 4px;
+  width: 100% !important;
+}
+
+/* line 561, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerCommentTree .x-grid-row, .rmViewerCommentTree .x-grid-row-focused, .rmViewerCommentTree .x-grid-row-over tr {
+  background-color: transparent;
+  border-style: none;
+  height: 100% !important;
+}
+
+/* line 567, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerCommentTree .x-grid-row-focused, .rmViewerCommentTree .x-grid-row-over, .rmViewerCommentTree .x-grid-row-selected td {
+  background-color: transparent;
+  border-style: none;
+}
+
+/* line 572, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerCommentTree .x-grid-cell {
+  background-color: #ffffff !important;
+  height: 100% !important;
+}
+
+/* line 577, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentHtmlEditor .cke_skin_kama .cke_wrapper, .rmViewerRichHtmlWindow .cke_skin_kama .cke_wrapper {
+  border-style: none;
+  padding: 0px;
+}
+
+/* line 582, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentHtmlEditor span.cke_skin_kama, .rmViewerRichHtmlWindow span.cke_skin_kama {
+  border-style: none;
+  padding: 0px;
+}
+
+/* line 587, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentHeader span.cke_skin_kama, .rmViewerRichHtmlWindow span.cke_skin_kama {
+  padding: 0px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* line 592, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentHeader .cke_skin_kama .cke_wrapper, .rmViewerRichHtmlWindow .cke_skin_kama .cke_wrapper {
+  border-style: none;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* line 597, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentItemEditor .cke_skin_kama .cke_focus {
+  outline: none;
+}
+
+/* line 601, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentHtmlEditor .cke_skin_xcp .cke_wrapper, .rmViewerRichHtmlWindow .cke_skin_xcp .cke_wrapper {
+  border-style: none;
+  padding: 0px;
+}
+
+/* line 606, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentHtmlEditor span.cke_skin_xcp, .rmViewerRichHtmlWindow span.cke_skin_xcp {
+  border-style: none;
+  padding: 0px;
+  width: 100% !important;
+}
+
+/* line 612, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentHtmlEditor .x-form-item-body {
+  width: 100% !important;
+}
+
+/* line 616, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentHeader span.cke_skin_xcp, .rmViewerRichHtmlWindow span.cke_skin_xcp {
+  padding: 0px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* line 621, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentHeader .cke_skin_xcp .cke_wrapper, .rmViewerRichHtmlWindow .cke_skin_xcp .cke_wrapper {
+  border-style: none;
+  border-radius: 0px 0px 0px 0px;
+}
+
+/* line 626, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentItemEditor .cke_skin_xcp .cke_focus {
+  outline: none;
+}
+
+/* line 630, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentHeader .x-panel-body-default, .rmViewerRichHtmlWindow .x-panel-body-default {
+  border-style: none;
+}
+
+/* line 634, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentlist-content td {
+  border-style: solid !important;
+}
+
+/* line 638, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentlist-content ul, .rmCommentlist-content ol {
+  margin-left: 3em;
+  padding-left: 0;
+  margin-bottom: 1em;
+}
+
+/* line 644, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentlist-content ul {
+  list-style-type: square;
+}
+
+/* line 648, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentlist-content ol {
+  list-style-type: decimal;
+}
+
+/* line 652, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentlist-content ul li {
+  list-style: disc outside none;
+}
+
+/* line 656, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmCommentlist-content ol li {
+  list-style: decimal outside none;
+}
+
+/* line 660, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.collapserIconCls {
+  width: 15px;
+  padding-right: 3px;
+  vertical-align: top;
+  padding-top: 0px;
+}
+
+/* line 667, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerCommentThread {
+  height: 350px;
+  width: 490px;
+}
+
+/* line 672, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerCommentThread .x-tree-lines .x-grid-tree-node-expanded .rm-tree-plus {
+  background: url("xcp-ivf-widgets/icons/xcp-sprites.png") 2px -72px no-repeat !important;
+  width: 15px;
+  margin-top: 5px;
+}
+/* line 676, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerCommentThread .x-tree-lines .x-grid-tree-node-expanded .rm-tree-plus:hover {
+  background: url("xcp-ivf-widgets/icons/xcp-sprites.png") -15px -75px no-repeat !important;
+}
+
+/* line 679, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerCommentThread .x-tree-lines .rm-tree-plus {
+  background: url("xcp-ivf-widgets/icons/xcp-sprites.png") 2px -116px no-repeat !important;
+  width: 15px;
+  margin-top: 5px;
+}
+/* line 683, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerCommentThread .x-tree-lines .rm-tree-plus:hover {
+  background: url("xcp-ivf-widgets/icons/xcp-sprites.png") -15px -119px no-repeat !important;
+}
+
+/* line 686, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerCommentThread .x-tree-lines .rm-comment-view-maximized {
+  background: url("xcp-ivf-widgets/icons/xcp-sprites.png") 2px -72px no-repeat !important;
+  width: 15px;
+  margin-top: 5px;
+}
+/* line 690, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerCommentThread .x-tree-lines .rm-comment-view-maximized:hover {
+  background: url("xcp-ivf-widgets/icons/xcp-sprites.png") -15px -75px no-repeat !important;
+}
+
+/* line 693, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerCommentThread .x-tree-lines .rm-comment-view-minimized {
+  background: url("xcp-ivf-widgets/icons/xcp-sprites.png") 2px -116px no-repeat !important;
+  width: 15px;
+  margin-top: 5px;
+}
+/* line 697, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerCommentThread .x-tree-lines .rm-comment-view-minimized:hover {
+  background: url("xcp-ivf-widgets/icons/xcp-sprites.png") -15px -119px no-repeat !important;
+}
+
+/* line 700, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmDocumentPageViewer .x-grid-table {
+  table-layout: auto;
+}
+
+/* line 704, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rm-viewer-zoom-out {
+  background: url("xcp-ivf-widgets/icons/viewer_zoomout_tool.png") no-repeat;
+}
+
+/* line 708, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerZoomOut {
+  margin-right: 2px  !important;
+}
+
+/* line 712, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rm-viewer-zoom-in {
+  background: url("xcp-ivf-widgets/icons/viewer_zoomin_tool.png") no-repeat;
+}
+
+/* line 716, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerZoomIn {
+  margin-left: 2px  !important;
+}
+
+/* line 720, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rm-viewer-zoom-slider-tic {
+  position: absolute;
+  top: 1px;
+  left: 50px;
+  z-index: 100;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  height: 15px;
+  overflow: visible;
+}
+
+/* line 730, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerZoomSlider {
+  height: 10px;
+  width: 100px;
+}
+
+/* line 735, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerZoomSlider .x-slider-horz .x-slider-horz .x-slider-end .x-slider-horz .x-slider-inner {
+  background-image: url("xcp-ivf-widgets/slider-bg.png");
+}
+
+/* line 740, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerZoomOut {
+  margin-right: 2px  !important;
+}
+
+/* line 744, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerZoomSlider .x-slider-horz .x-slider-thumb {
+  background-image: url("xcp-ivf-widgets/icons/slider-thumb.png");
+  z-index: 100000;
+}
+
+/* line 749, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerZoomIn {
+  margin-left: 2px  !important;
+}
+
+/* line 753, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.grab-cursor {
+  cursor: url(xcp-ivf-widgets/icons/grab.cur), auto;
+}
+
+/* line 757, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.grabbing-cursor {
+  cursor: url(xcp-ivf-widgets/icons/grabbing.cur), auto;
+}
+
+/* line 761, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.x-rmViewerToolbar-more-icon {
+  background-image: url("xcp-ivf-widgets/icons/more.gif") !important;
+  background-position: 2px center !important;
+  background-repeat: no-repeat;
+}
+
+/* line 767, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerToolBar .x-box-inner {
+  overflow: visible;
+}
+
+/* line 771, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rmViewerToolBar {
+  background-color: white;
+  background-image: none;
+}
+
+/* line 776, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rm-rotate-left {
+  background: url(xcp-ivf-widgets/icons/viewer_rotateleft.png) no-repeat;
+}
+
+/* line 780, ../../../sass/xcp/document-viewer/xcp-document-viewer.scss */
+.rm-rotate-right {
+  background: url(xcp-ivf-widgets/icons/viewer_rotateright.png) no-repeat;
+}
+
+/* xcp_viewer/resources/css/xcp/thm/thumbs.css */
+
+/* line 7, ../../../sass/xcp/thm/thumbs.scss */
+.xcp_viewer .x-grid-row .x-grid-cell {
+  border-style: none;
+}
+/* line 13, ../../../sass/xcp/thm/thumbs.scss */
+.xcp_viewer .x-grid-row-over .x-grid-cell, .xcp_viewer .x-grid-row-over .x-grid-rowwrap-div {
+  background-color: transparent;
+}
+/* line 17, ../../../sass/xcp/thm/thumbs.scss */
+.xcp_viewer .x-grid-cell-inner {
+  padding: 0px;
+  border-bottom: 0px none;
+  padding-bottom: 0px;
+}
+/* line 24, ../../../sass/xcp/thm/thumbs.scss */
+.xcp_viewer .x-toolbar-separator-vertical {
+  margin: 2px 5px 3px 5px;
+  height: 0px;
+  width: 10px;
+  line-height: 0px;
+  border-top: 1px solid #98c8ff;
+  border-bottom: 1px solid white;
+}
+/* line 33, ../../../sass/xcp/thm/thumbs.scss */
+.xcp_viewer .x-grid-row-focused .x-grid-cell, .xcp_viewer .x-grid-row-focused .x-grid-rowwrap-div {
+  background-color: #B4B5B4;
+}
+/* line 38, ../../../sass/xcp/thm/thumbs.scss */
+.xcp_viewer .x-grid-row-selected .x-grid-cell, .xcp_viewer .x-grid-row-selected .x-grid-rowwrap-div {
+  background-color: #CCCCCC !important;
+  border: #000000 1px solid;
+}
+/* line 43, ../../../sass/xcp/thm/thumbs.scss */
+.xcp_viewer .x-grid-row-thm-focused {
+  background-color: #B4B5B4 !important;
+}
+/* line 47, ../../../sass/xcp/thm/thumbs.scss */
+.xcp_viewer .x-panel-header-text-default {
+  font-weight: normal;
+  font-size: 12px;
+  color: black;
+}
+
+/* line 55, ../../../sass/xcp/thm/thumbs.scss */
+.x-ie .xcp_viewer .x-grid-cell-inner {
+  border-top: 0px none;
+  border-bottom: 0px none;
+}
+
+/* line 59, ../../../sass/xcp/thm/thumbs.scss */
+.xcp_viewer_pgModPanel {
+  border: 0px;
+}
+
+/* line 63, ../../../sass/xcp/thm/thumbs.scss */
+.xcp_viewer_thmPanel {
+  border: 0px;
+}
+
+/* line 67, ../../../sass/xcp/thm/thumbs.scss */
+.xcp_viewer_viewerPanel {
+  border: 0px;
+}
+
+/*16 px icons*/
+/* line 72, ../../../sass/xcp/thm/thumbs.scss */
+.pg-insert {
+  background-image: url(xcp-ivf-widgets/icons/viewer_addpages_tool.png) !important;
+}
+
+/* line 76, ../../../sass/xcp/thm/thumbs.scss */
+.pg-move {
+  background-image: url(xcp-ivf-widgets/icons/viewer_movepages_tool.png) !important;
+}
+
+/* line 80, ../../../sass/xcp/thm/thumbs.scss */
+.pg-extract {
+  background-image: url(xcp-ivf-widgets/icons/viewer_extractpages_tool.png) !important;
+}
+
+/* line 84, ../../../sass/xcp/thm/thumbs.scss */
+.pg-delete {
+  background-image: url(xcp-ivf-widgets/icons/viewer_deletepages_tool.png) !important;
+}
+
+/* line 89, ../../../sass/xcp/thm/thumbs.scss */
+.pg-insertBefore {
+  background-image: url(xcp-ivf-widgets/icons/viewer_insertabove_tool.png) !important;
+}
+
+/* line 94, ../../../sass/xcp/thm/thumbs.scss */
+.pg-insertAfter {
+  background-image: url(xcp-ivf-widgets/icons/viewer_insertbelow_tool.png) !important;
+}
+
+/* line 99, ../../../sass/xcp/thm/thumbs.scss */
+.pg-paste {
+  cursor: url(xcp-ivf-widgets/icons/viewer_move_cursor.png), default !important;
+}
+
+/* line 104, ../../../sass/xcp/thm/thumbs.scss */
+.pg-paste-ie {
+  cursor: url(component/xcp-ivf-widgets/icons/viewer_move_cursor.cur), default !important;
+}
+
+/*24px icons for page mod toolbar*/
+/* line 110, ../../../sass/xcp/thm/thumbs.scss */
+.pg-insert-24 {
+  background-image: url(xcp-ivf-widgets/icons/viewer_addpages_24_tool.png) !important;
+}
+
+/* line 114, ../../../sass/xcp/thm/thumbs.scss */
+.pg-move-24 {
+  background-image: url(xcp-ivf-widgets/icons/viewer_movepages_24_tool.png) !important;
+}
+
+/* line 118, ../../../sass/xcp/thm/thumbs.scss */
+.pg-extract-24 {
+  background-image: url(xcp-ivf-widgets/icons/viewer_extractpages_24_tool.png) !important;
+}
+
+/* line 122, ../../../sass/xcp/thm/thumbs.scss */
+.pg-delete-24 {
+  background-image: url(xcp-ivf-widgets/icons/viewer_deletepages_24_tool.png) !important;
+}
+
+/*Page mod modal window css*/
+/* line 127, ../../../sass/xcp/thm/thumbs.scss */
+.del_win {
+  background-image: url(xcp-ivf-widgets/icons/viewer_deletepages_tool.png) !important;
+}
+
+/* line 131, ../../../sass/xcp/thm/thumbs.scss */
+.reord_win {
+  background-image: url(xcp-ivf-widgets/icons/viewer_movepages_tool.png) !important;
+}
+
+/* line 135, ../../../sass/xcp/thm/thumbs.scss */
+.ins_win {
+  background-image: url(xcp-ivf-widgets/icons/viewer_addpages_tool.png) !important;
+}
+
+/* line 139, ../../../sass/xcp/thm/thumbs.scss */
+.err-msg {
+  color: red;
+}
+
+/* line 143, ../../../sass/xcp/thm/thumbs.scss */
+.thmMod {
+  background-image: none !important;
+  background-color: white !important;
+}
+
+/* line 148, ../../../sass/xcp/thm/thumbs.scss */
+.thmModBtn .x-btn-inner {
+  font-weight: normal !important;
+  font-size: 12px;
+  color: black;
+}
+
+/* line 154, ../../../sass/xcp/thm/thumbs.scss */
+.pgModTbl .x-toolbar-default {
+  border-color: white !important;
+  background-image: none !important;
+  background-color: white !important;
+}
+
+/* line 160, ../../../sass/xcp/thm/thumbs.scss */
+.compPanel .x-panel-header-default {
+  background-image: none !important;
+  background-color: white;
+  border-color: white;
+}
+
+/* line 166, ../../../sass/xcp/thm/thumbs.scss */
+.compPanel .x-panel-header-text-default {
+  color: black;
+  font-weight: normal;
+}
+
+/* line 171, ../../../sass/xcp/thm/thumbs.scss */
+.thmimg {
+  max-width: 100px;
+  max-height: 100px;
+  width: expression(this.width > 100 ? "100px" : true);
+  height: expression(this.height > 100 ? "100px" : true);
+}
+
+/* line 178, ../../../sass/xcp/thm/thumbs.scss */
+.alignField .x-form-display-field {
+  padding-top: 3px;
+}
+
+/* line 182, ../../../sass/xcp/thm/thumbs.scss */
+.ext_win-body .x-panel-body {
+  padding-left: 7px;
+}
+
+/* ivf_axviewer_lib/resources/css/axtools.css */
+
+.AxPopupDialogContainer
+{
+    margin-left:0; 
+    margin-right:0;
+    margin-top:0; 
+    margin-bottom:0; 
+    border-left:0; 
+    border-right:0; 
+    padding-left:auto; 
+    padding-right:auto;
+    min-width:190px;
+    visibility:hidden
+}
+.AxToolDefault
+{
+    border-color:#dbd7d0;
+    border-width:1px; 
+    background-color:#dbd7d0;  
+    border-style:solid;
+    color:black; 
+    cursor:default
+}
+
+.AxAnnoToolButton
+{
+    border-color:#dbd7d0;
+    border-width:1px; 
+    background-color:#dbd7d0;  
+    border-style:solid;
+    color:black;
+    height:100%;
+    width:100%;
+    cursor:default
+}
+.AxAnnoToolMouseOver
+{
+    border-color:#B9B2A7;
+    border-width:1px; 
+    background-color:white; 
+    border-style:solid;
+    color:black; 
+    cursor:pointer
+}
+.AxAnnoToolMouseOut
+{
+    border-color:#dbd7d0;
+    border-width:1px; 
+    background-color:#dbd7d0;  
+    border-style:solid;
+    color:black; 
+    cursor:default
+}
+
+.importDocIcon{
+    background-image: url(xcp-ivf-provider-axviewer/icons/ax_import_tool.png) !important;
+}
+
+.exportDocIcon{
+    background-image: url(xcp-ivf-provider-axviewer/icons/ax_export_tool.png) !important;
+}
+
+.printDocIcon{
+    background-image: url(xcp-ivf-provider-axviewer/icons/ax_print_doc_tool.png) !important;
+}
+
+.printPageIcon{
+    background-image: url(xcp-ivf-provider-axviewer/icons/ax_print_pg_tool.png) !important;
+}
+
+.prevPageIcon{
+    background-image: url(xcp-ivf-widgets/icons/page_previous_tool.png) !important;
+}
+
+.nextPageIcon{
+    background-image: url(xcp-ivf-widgets/icons/page_next_tool.png) !important;
+}
+
+.fitWidthIcon{
+    background-image: url(xcp-ivf-widgets/icons/viewer_fitwidth_tool.png) !important;
+}
+
+.fitHeightIcon{
+    background-image: url(xcp-ivf-widgets/icons/viewer_fitheight_tool.png) !important;
+}
+
+.zoomInIcon{
+    background-image: url(xcp-ivf-provider-axviewer/icons/ax_zoomin_page_tool.png) !important;
+}
+
+.zoomOutIcon{
+    background-image: url(xcp-ivf-provider-axviewer/icons/ax_zoomout_page_tool.png) !important;
+}
+
+.rotateLeftIcon{
+    background-image: url(xcp-ivf-widgets/icons/viewer_rotateleft.png) !important;
+}
+
+.rotateRightIcon{
+    background-image: url(xcp-ivf-widgets/icons/viewer_rotateright.png) !important;
+}
+
+.annoPointerIcon{
+    background-image: url(xcp-ivf-provider-axviewer/icons/ax_select_tool.png) !important;
+}
+
+.annoNoteIcon{
+    background-image: url(xcp-ivf-provider-axviewer/icons/ax_note_tool.png) !important;
+}
+
+.annoTextIcon{
+    background-image: url(xcp-ivf-provider-axviewer/icons/ax_text_tool.png) !important;
+}
+
+.annoHighlightIcon{
+    background-image: url(xcp-ivf-provider-axviewer/icons/ax_hilite_tool.png) !important;
+}
+
+.annoLineIcon{
+    background-image: url(xcp-ivf-provider-axviewer/icons/ax_line_tool.png) !important;
+}
+
+.annoFreehandIcon{
+    background-image: url(xcp-ivf-provider-axviewer/icons/ax_freehand_tool.png) !important;
+}
+
+.annoArrowIcon{
+    background-image: url(xcp-ivf-provider-axviewer/icons/ax_arrow_tool.png) !important;
+}
+
+.annoRectangleIcon{
+    background-image: url(xcp-ivf-provider-axviewer/icons/ax_rectangle_tool.png) !important;
+}
+
+.annoRoundedRectangleIcon{
+    background-image: url(xcp-ivf-provider-axviewer/icons/ax_rounded_tool.png) !important;
+}
+
+.annoOvalIcon{
+    background-image: url(xcp-ivf-provider-axviewer/icons/ax_oval_tool.png) !important;
+}
+
+.annoPolygonIcon{
+    background-image: url(xcp-ivf-provider-axviewer/icons/ax_polygon_tool.png) !important;
+}
+
+.annoPolylineIcon{
+    background-image: url(xcp-ivf-provider-axviewer/icons/ax_polyline_tool.png) !important;
+}
+
+.annoRubberStampIcon{
+    background-image: url(xcp-ivf-provider-axviewer/icons/ax_rubberstamp_tool.png) !important;
+}
+
+.annoEraserIcon{
+    background-image: url(xcp-ivf-provider-axviewer/icons/ax_erase_tool.png) !important;
+}
+
+.annoNoFillIcon{
+    background-image: url(xcp-ivf-provider-axviewer/icons/ax_nofill_tool.png) !important;
+}
+
+.annoLineWidthIcon{
+    background-image: url(xcp-ivf-provider-axviewer/icons/ax_linesize_tool.png) !important;
+}
+
+.annoColorIcon{
+    background-image: url(xcp-ivf-provider-axviewer/icons/ax_color_tool.png) !important;
+}
+
+.annoColorBGIcon{
+    background-image: url(xcp-ivf-provider-axviewer/icons/ax_fillcolor_tool.png) !important;
+}
+
+.annoSelectAllIcon{
+    background-image: url(xcp-ivf-provider-axviewer/icons/ax_select_all_tool.png) !important;
+}
+
+.annoDeleteIcon{
+    background-image: url(xcp-ivf-provider-axviewer/icons/ax_delete_tool.png) !important;
+}
+
+.annoUndoIcon{
+    background-image: url(xcp-ivf-provider-axviewer/icons/ax_undo_tool.png) !important;
+}
+
+.annoSaveIcon{
+    background-image: url(xcp-ivf-provider-axviewer/icons/ax_save_tool.png) !important;
+}
+
+.x-ie .toolbarBg .x-toolbar-default {
+    background-image: none !important;
+    background-color: white !important;
+    border-color: white !important;
+}
+
+.pgCountFont{
+    font-size: 12px !important;
+}
+
+
+/* ivf_videoviewer_lib/resources/css/fullscreen.css */
+
+.fullscreen-container {
+	position: fixed !important;
+	left: 0 !important;
+	top: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	width: 100% !important;
+	height: 100% !important;
+	overflow: hidden !important;
+	z-index: 1000; /*!important; */
+}
+
+/* ivf_videoviewer_lib/resources/css/video-viewer.css */
+
+.videoviewer-control { /* <div> */
+	width: 100%;
+	height: 100%;
+}
+
+/* Start: Video Player section*/
+.videoplayer-body {
+	background-color:#000 !important;
+	border-bottom-width: 0 !important; /*extjs: x-docked-noborder-bottom*/
+	color:#fff;
+}
+
+.videoplayer-toolbar {
+	background-image: none !important; 
+	/*background-color: transparent; */
+	background-color: #6b6; 
+	color:#fff;
+	opacity: 0.9;
+}
+
+.videoplayer-controller-button {
+	/*
+	cursor: pointer;
+	display: block;
+	font-size: 0px;
+	line-height: 0;
+	text-decoration: none;
+	padding: 0;
+	position: absolute;
+	height: 16px;
+	width: 16px;
+	border: 0;
+	*/
+	margin: 0px 5px;
+	background-image: url(xcp-ivf-provider-videoviewer/icons/video-viewer-controls.png) !important;
+	background-repeat: no-repeat !important;
+}
+
+.videoplayer-controller-play-button  {
+	background-position:0 0 !important;
+}
+.videoplayer-controller-pause-button  {
+	background-position:0 -16px !important;
+}
+
+.videoplayer-controller-speaker-unmute-button  {
+	background-position:-16px -16px !important;
+}
+.videoplayer-controller-speaker-mute-button {
+	background-position:-16px 0 !important;
+}
+
+.videoplayer-controller-maximize-button  {
+	background-position:-32px 0 !important;
+}
+.videoplayer-controller-unmaximize-button {
+	background-position:-32px -16px !important;
+}
+
+.videoplayer-controller-volume  {
+	background-color:#E9F2FF !important;
+	border-width: 1px !important;
+	border-style: none !important;
+	opacity: 0.7;
+}
+
+.videoplayer-controller-thumbnail-box {
+	background-color:#000 !important;
+	border-width: 0px !important;
+	border-style: none !important;
+	padding-top: 1px !important;
+	padding-bottom: 0px !important;
+	padding-left: 1px !important;
+	padding-right: 1px !important;
+}
+
+.videoplayer-controller-thumbnail-box-body {
+	width: 160px !important;
+	border-style: none !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.videoplayer-controller-thumbnail-label {
+	background-color:gray !important;
+	text-align: center !important;
+	font-size: 11px !important;
+	color: white !important;
+	opacity: 0.7 !important;	
+}
+
+.videoplayer-controller-slider {
+    margin: 3px 0 0 0 ;/* render on progress bar */
+    height: 16px !important;
+}
+
+.videoplayer-controller-slider .x-slider-horz, .videoplayer-controller-slider .x-slider-horz .x-slider-end, .videoplayer-controller-slider .x-slider-horz .x-slider-inner {
+    background-image: none !important; /* remove bg from slider */
+}
+
+.videoplayer-controller-slider .x-slider-thumb {
+    /* TODO: Wait for UI elements */
+    /* background-image:url(xcp-ivf-provider-videoviewer/icons/slider-thumb.png) !important; */
+}
+
+.videoplayer-controller-progressbar {
+    height: 16px !important;
+}
+.videoplayer-controller-progressbar .x-progress-default, .videoplayer-controller-progressbar .x-progress-bar {
+    /* TODO: wait for UI styles */
+    background-color: #73A1E0;
+    /* background-image: */
+}
+
+.videoplayer-controller-timeline-div {
+    width: 2px; 
+    height: 26px;
+    border-left: 2px solid; 
+    color: #EE0000; 
+    margin-top: 0px; 
+    padding: 0px;
+    position: relative;
+}
+
+
+/* Big Play Button CSS */
+.big-play-button-x-mask-msg {
+    z-index:20001;
+    position:absolute;
+    top:0;left:0;padding:2px;
+    border:0px none !important;
+    background-image:url(xcp-ivf-provider-videoviewer/icons/bigplay.png) !important;
+    background-repeat:no-repeat !important;
+    background-color: transparent !important;
+    /*background-color:#ffffff !important;*/
+    /*background: transparent !important;*/
+    opacity: 0.6 !important;
+}
+.big-play-button-x-mask-msg div {
+    width: 100px !important;
+    height: 100px !important;
+    padding:0px 10px 5px 25px;
+    background-image: none !important;
+    background-repeat:no-repeat !important;
+    background-position:5px center;
+    cursor:pointer !important;
+    border:0px none !important;
+    background-color:#ffffff !important;
+    background-color: transparent !important;
+    background: transparent !important;
+    font:normal 11px tahoma, arial, verdana, sans-serif
+}
+/* Big Play Button CSS end */
+
+
+/* End: Video Player section*/
+
+
+/* xcp_error_message_window/resources/css/xcp/widget/window/ErrorMessageWindow.css */
+
+.xcp-notification-error-icon{background-image:url(xcp-core/icons/error_misc.png);background-repeat:no-repeat}.xcp-notification-error{background-color:#ffffaa;border-color:#999999;border-style:solid;border-width:1px;z-index:99998!important;padding:7px;height:auto}.xcp-notify-close-icon{background-image:url(xcp-core/icons/close_normal.png);background-repeat:no-repeat;vertical-align:middle}.xcp-notify-close-icon-hover{background-image:url(xcp-core/icons/close_hover.png)}
+
+/* xcp_notification_window/resources/css/xcp/widget/window/NotificationBase.css */
+
+.xcp-statusicon{height:16px;width:16px}
+
+/* xcp_notification_window/resources/css/xcp/widget/window/NotificationWindow.css */
+
+.xcp-notification-complete-icon{background-image:url(xcp-core/icons/confirm_24_misc.png);background-repeat:no-repeat}.xcp-notification-progress-icon{background-image:url(xcp-core/icons/wait.gif);background-repeat:no-repeat}.xcp-notification-complete{background-color:#ffffaa;border-color:#999999;border-style:solid;border-width:1px;padding:20px;opacity:0.9;filter:Alpha(opacity=90);z-index:99999!important}.xcp-notification-progress{background-color:#ffffaa;border-color:#999999;border-style:solid;border-width:1px;padding:20px;opacity:0.9;filter:Alpha(opacity=90);z-index:99999!important}
+
+/* xcp_feedback_lib/resources/css/xcp/core/FeedbackManager.css */
+
+.xcp-notify-server-errors{margin-top:10px;width:100%}.xcp-notify-collapse-icon{background-image:url("xcp-core/icons/xcp-sprites.png");background-position:0px -75px;background-repeat:no-repeat;width:15px;height:15px}.xcp-notify-collapse-icon:hover{background-image:url("xcp-core/icons/xcp-sprites.png");background-position:-15px -75px;background-repeat:no-repeat;width:15px;height:15px}.xcp-notify-expand-icon{background-image:url("xcp-core/icons/xcp-sprites.png");background-position:0px -120px;background-repeat:no-repeat;width:15px;height:15px}.xcp-notify-expand-icon:hover{background-image:url("xcp-core/icons/xcp-sprites.png");background-position:-15px -120px;background-repeat:no-repeat;width:15px;height:15px}
+
+/* xcp_create_folder/resources/css/xcp/dialog/CreateFolder.css */
+
+.xcp-create-folder-dialog .x-panel-body-default{border:none}.xcp-create-folder-dialog .create-folder-icon{background-image:url("xcp-core/icons/navfolder_open_fld.png")}.xcp-create-folder-dialog .x-border-layout-ct{background-color:transparent;border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px}.xcp-create-folder-dialog .center{padding:10px 10px 10px 10px}.xcp-create-folder-dialog .center .x-box-layout-ct{border:none}.xcp-create-folder-dialog .create-folder-typeselector-panel .label{font-family:Helvetica,Arial,sans-serif;font:Helvetica,Arial,sans-serif;font-size:12px;font-weight:normal;color:#555}.xcp-create-folder-dialog .create-folder-typeselector-panel .x-panel-body-default{padding-top:5px;padding-right:5px;padding-bottom:0;padding-left:5px;margin-left:5px;margin-bottom:10px;border:none}.xcp-create-folder-dialog .action-flow-panel{padding-right:10px;border:1px solid #ccc;border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px}.xcp-create-folder-dialog .x-form-trigger{background-image:url("xcp-core/icons/trigger.gif")}.xcp-create-folder-dialog.body{background-color:transparent;margin:10px}
+
+/* xcp_import_file/resources/css/xcp/dialog/ImportFile.css */
+
+.xcp-import-file-dialog .import-dialog-icon{background-image:url("xcp-core/icons/document_import.png")}.xcp-import-file-dialog .import-file-list-dataview{margin-top:3px}.xcp-import-file-dialog .import-file-list-tooltip-body{font-family:Helvetica,Arial,sans-serif;background-color:#dee6ed;white-space:nowrap}.xcp-import-file-dialog .import-file-item{margin:1px;white-space:nowrap}.xcp-import-file-dialog .import-file-item:hover{background-color:#e0e6eb}.xcp-import-file-dialog .import-file-item-selected{margin:1px;white-space:nowrap;background-color:#d1d9e0}.xcp-import-file-dialog .import-file-item-selected:hover{background-color:#d1d9e0}.xcp-import-file-dialog .import-file-item-status-img{height:16px;width:16px;margin:1px 1px 3px 3px;display:inline-block;background-repeat:no-repeat;vertical-align:middle}.xcp-import-file-dialog .import-file-item-status-img.uploading{background-image:url("xcp-core/icons/loading.gif")}.xcp-import-file-dialog .import-file-item-status-img.uploaded{background-image:url("xcp-core/icons/icon-check_16.png")}.xcp-import-file-dialog .import-file-item-status-img.needsinfo{background-image:url("xcp-core/icons/warning_misc.png")}.xcp-import-file-dialog .import-file-item-status-img.uploaderror{background-image:url("xcp-core/icons/icon-error_16.png")}.xcp-import-file-dialog .import-file-item-status-img.importerror{background-image:url("xcp-core/icons/icon-error_16.png")}.xcp-import-file-dialog .import-file-item-status-img.importing{background-image:url("xcp-core/icons/loading.gif")}.xcp-import-file-dialog .import-file-item-status-img.imported{background-image:url("xcp-core/icons/icon-check_16.png")}.xcp-import-file-dialog .import-file-item-format-img{height:16px;width:16px;margin:1px 3px 3px 0px;display:inline-block;background-repeat:no-repeat;vertical-align:middle;background-image:url("xcp-core/icons/doc_art.png")}.xcp-import-file-dialog .import-file-item-filename{font-family:Helvetica,Arial,sans-serif;font:Helvetica,Arial,sans-serif;font-size:12px;font-weight:normal;color:#555;vertical-align:middle;margin:1px 3px 3px 3px}.xcp-import-file-dialog .import-file-item-empty{font-family:Helvetica,Arial,sans-serif;font:Helvetica,Arial,sans-serif;font-size:12px;font-weight:normal;color:#555;color:#a2a2a2;vertical-align:middle;margin:1px 3px 3px 0px;padding:5px}.xcp-import-file-dialog .center{padding:10px 0px 10px 10px}.xcp-import-file-dialog .center .x-box-layout-ct{border:none}.xcp-import-file-dialog .error{color:red}.xcp-import-file-dialog .fileinfo-panel .x-panel-body-default{border:none}.xcp-import-file-dialog .xcp-import-file-btn{height:16px;width:20px}.xcp-import-file-dialog .xcp-import-file-btn .x-panel-body-default,.xcp-import-file-dialog .xcp-import-file-btn .x-btn{border:0;background:none}.xcp-import-file-dialog .x-border-layout-ct{background-color:transparent;border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px}.xcp-import-file-dialog .action-flow-panel .x-panel-body-default{padding:5px;border:1px solid #ccc}.xcp-import-file-dialog .action-flows-panel{padding-right:12px}.xcp-import-file-dialog .action-flows-panel .action-step-container{border:1px solid #ccc;border-radius:0px}.xcp-import-file-dialog .action-flows-panel .action-step-container .x-panel-body-default{padding:0px}.xcp-import-file-dialog .action-flows-panel .action-step-panel .x-panel-body-default{padding:0px;border:none}.xcp-import-file-dialog .import-file-typeselector-panel .label{font-family:Helvetica,Arial,sans-serif;font:Helvetica,Arial,sans-serif;font-size:12px;font-weight:normal;color:#555}.xcp-import-file-dialog .import-file-typeselector-panel .x-panel-body-default{margin-left:5px;padding-right:12px;border:none}.xcp-import-file-dialog .import-file-list-toolbar{border-color:#ccc;background-image:none;background-color:transparent;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dee6ed), color-stop(100%, #eef2f7));background-image:-webkit-linear-gradient(top, #dee6ed, #eef2f7);background-image:-moz-linear-gradient(top, #dee6ed, #eef2f7);background-image:-o-linear-gradient(top, #dee6ed, #eef2f7);background-image:-ms-linear-gradient(top, #dee6ed, #eef2f7);background-image:linear-gradient(top, #dee6ed,#eef2f7)}.xcp-import-file-dialog .import-file-list-toolbar.x-box-layout-ct{border-bottom:1px solid #ccc}.xcp-import-file-dialog .x-form-trigger{background-image:url("xcp-core/icons/trigger.gif")}.xcp-import-file-dialog .x-splitter-vertical .x-collapse-el.x-layout-split-left{background:transparent url("xcp-core/icons/mini-left.png") no-repeat 2px center;width:10px}.xcp-import-file-dialog .x-splitter-vertical.collapsed .x-collapse-el.x-layout-split-left{background:transparent url("xcp-core/icons/mini-right.png") no-repeat 3px center;width:10px}.xcp-import-file-dialog .label{font-family:Helvetica,Arial,sans-serif;font:Helvetica,Arial,sans-serif;font-size:12px;font-weight:normal;color:#555}.xcp-import-file-dialog .add{background-image:url("xcp-core/icons/add_tool.png")}.xcp-import-file-dialog .remove{background-image:url("xcp-core/icons/remove_tool.png")}.xcp-import-file-dialog.body{background-color:transparent;margin:10px}.x-ie .xcp-import-file-dialog .xcp-import-file-btn{margin-top:3px!important}
+
+/* xcp_multivalue/resources/css/xcp/widget/form/MultiValueInput.css */
+
+.invalidMultiValueInput .x-form-item-body{background-image:url("xcp-core/icons/invalid_line.gif");background-position:center bottom;background-repeat:repeat-x;border-color:#CC3300}.multivalue-add-icon{background-image:url("xcp-core/icons/add_tool.png")}.multivalue-remove-icon{background-image:url("xcp-core/icons/remove_tool.png")}.multivalue-up-icon{background-image:url("xcp-core/icons/directional_up_tool.png")}.multivalue-down-icon{background-image:url("xcp-core/icons/directional_down_tool.png")}
+
+/* xcp_number_formatter_lib/resources/css/xcp/formatter/NumberFormatter.css */
+
+.xcp-negative-number{color:#ff0033}
+
+/* xcp_signin/resources/css/xcp/util/signin.css */
+
+.signin-area-div{margin:0 auto;width:350px}#signin-page{background:#F0F5F9}.msg-area-div{font:8pt verdana;color:red;margin:10px auto;text-align:center}.signin-panel{position:relative;top:75px;overflow:visible}.signin-logo-panel .x-panel-bwrap,.signin-form-panel .x-panel-bwrap{overflow:hidden}.signin-panel .signin-logo-panel .x-panel-body{background:url("../../../icons/welcome.png") no-repeat scroll 0 0 transparent;height:48px;border-bottom-width:1px !important}.signin-panel .signin-form-panel{margin-top:5px}.signin-panel .signin-form .x-panel-body{padding:16px 16px 8px;border-top-width:0}.signin-panel .x-toolbar{padding:0 6px 8px}
+
+/* xcp_startup/resources/css/xcp/global.css */
+
+.xcp-viewport{overflow-x:hidden;overflow-y:auto}.xcp-panel-collapse-left .x-tool-collapse-top{margin-right:5px}.xcp-panel-collapse-left .x-tool-expand-bottom{margin-right:5px}
+
+/* xcp_results_list/resources/css/xcp/widget/grid/ResultsList.css */
+
+.xcp-relative{position:relative}.xcp-actioncol{display:none;height:21px;width:14px;background:no-repeat transparent right center;background-color:#c3daf9;background-image:url("xcp-core/icons/grid-row-btn.png");position:absolute;right:0;top:0;cursor:pointer}.xcp-relative .x-grid-cell-inner{position:relative}.x-grid a:link,.x-grid a:visited{text-decoration:none;font-size:13px;font-weight:bold;color:#3399CC}.x-grid-row-over .xcp-actioncol,.x-grid-row-selected .xcp-actioncol{display:block}.xcp-not-supported{color:#808080}.xcp-cut{color:gray !important;-moz-opacity:0.5;opacity:0.5;filter:alpha(opacity=50);zoom:1}
+
+/* xcp_admin_results_list/resources/css/xcp/widget/admin/admin.css */
+
+.x-grid-cell-inner .xcp-role{padding-left:18px;background-image:url("xcp-core/icons/role.png");background-repeat:no-repeat}.x-grid-cell-inner .xcp-group{padding-left:18px;background-image:url("xcp-core/icons/group.png");background-repeat:no-repeat}.x-grid-cell-inner .xcp-user{padding-left:18px;background-image:url("xcp-core/icons/user.png");background-repeat:no-repeat}.xcp-dualGridSelector-right{background-image:url("xcp-core/icons/arrow_right.png")}.xcp-dualGridSelector-left{background-image:url("xcp-core/icons/arrow_left.png")}.xcp-memberselectiondialogicon{width:16px;height:16px;background-image:url("xcp-core/icons/xCP_16p-8.png")}.x-column-header-admin-checkbox .x-column-header-inner{padding:1px}.x-column-header-admin-checkbox .x-column-header-text{display:block;margin-left:4px;margin-top:4px}.x-column-header-admin-checkbox .x-column-header-text{background-color:transparent;background-image:url("../js/ext-4.0/resources/themes/images/default/grid/unchecked.gif");background-position:-1px -1px;background-repeat:no-repeat;height:14px;width:14px}.x-grid-hd-checker-on .x-column-header-text{background-image:url("../js/ext-4.0/resources/themes/images/default/grid/checked.gif")}.x-btn-default-toolbar-small .xcp-adminAdd{background-image:url("xcp-core/icons/add_tool.png")}.x-btn-default-toolbar-small .xcp-adminRemove{background-image:url("xcp-core/icons/remove_tool.png")}
+
+/* xcp_column_box/resources/css/xcp/widget/layout/ColumnBox.css */
+
+.xcp-cb-split{overflow:hidden !important;background:transparent url(./dummy/xcp_columnbox/content/columnbox_splitbar.gif) repeat-y 7px 0;background-position:center center}
+
+/* xcp_comments/resources/css/xcp/widget/comments/Comments.css */
+
+.xcp-comment-tree .x-tool-expand-top,.xcp-comment-tree .x-tool-collapse-top{background-position:-75px}.xcp-comment-tree .x-tool-over .x-tool-expand-top,.xcp-comment-tree .x-tool-over .x-tool-collapse-top{background-position:-15px -75px}.xcp-comment-tree .x-tool-expand-bottom,.xcp-comment-tree .x-tool-collapse-bottom{background-position:-60px}.xcp-comment-tree .x-tool-over .x-tool-expand-bottom,.xcp-comment-tree .x-tool-over .x-tool-collapse-bottom{background-position:-15px -60px}.xcp-comment-tree.x-tree-panel .x-grid-row .x-grid-cell-inner{height:auto;white-space:pre-wrap;margin:5px 5px 0px 0px}.xcp-comment-tree .toolbar-btn .x-btn-inner{font-family:Helvetica,Arial,sans-serif;font:Helvetica,Arial,sans-serif;font-size:12px;font-weight:normal;color:#555}.xcp-comment-tree .comment-marker{display:inline-block;margin-right:3px;padding:0 2px;border-radius:2px;-moz-border-radius:2px}.xcp-comment-tree .comment-marker *{display:inline-block;vertical-align:top}.xcp-comment-tree .comment-marker .comment-marker-icon{height:16px;width:16px;background:url("xcp-ivf-widgets/icons/viewer_comment_ovr.png") no-repeat scroll center center transparent}.xcp-comment-tree .comment-marker .comment-marker-num{margin-left:3px}.xcp-comment-tree .comment-header{color:#555;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:bold}.xcp-comment-tree .comment-body{font-family:Helvetica,Arial,sans-serif;font:Helvetica,Arial,sans-serif;font-size:12px;font-weight:normal;color:#555;margin-top:10px}.xcp-comment-tree-over-item{background-color:transparent !important}.xcp-comment-tree .x-grid-row-focused .x-grid-cell,.xcp-comment-tree .x-grid-row-focused .x-grid-rowwrap-div{background-color:transparent !important}.xcp-comment-tree .comment-unread,.xcp-comment-tree .x-grid-row-focused .x-grid-cell.comment-unread,.xcp-comment-tree .x-grid-row-focused .x-grid-rowwrap-div.comment-unread{background-color:#FFFFCC !important}.xcp-comment-tree .comment-footer{font-family:Helvetica,Arial,sans-serif;font:Helvetica,Arial,sans-serif;font-size:12px;font-weight:normal;color:#555;margin-top:10px}.xcp-comment-tree .comment-footer-reply{font-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:normal;font-color:#a2a2a2}.xcp-comment-tree .comment-unread-count{color:#FF6600}.xcp-comment-tree .comment-action{margin-left:15px}.xcp-comment-tree .x-grid-row .x-grid-cell-inner .comment-action-img{margin-right:5px;display:inline-block;height:16px;width:16px;background-repeat:no-repeat;vertical-align:middle}.xcp-comment-tree .x-grid-row .x-grid-cell-inner .comment-action-img.reply{background-image:url("xcp-core/icons/comment_add.png")}.xcp-comment-tree .x-grid-row .x-grid-cell-inner .comment-action-img.edit{background-image:url("xcp-core/icons/comment_edit.png")}.xcp-comment-tree .x-grid-row .x-grid-cell-inner .comment-action-img.delete{background-image:url("xcp-core/icons/comment_delete.png")}.xcp-comment-tree.disable-comment-actions .x-grid-row .x-grid-cell-inner .comment-action-img{opacity:.70;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"}.xcp-comment-tree .comment-action-text{color:#39c;text-decoration:none;margin-right:5px}.xcp-comment-tree .comment-action-text:hover{color:#39c}.xcp-comment-tree.disable-comment-actions .comment-action-text,.xcp-comment-tree.disable-comment-actions .comment-action-text:hover{display:inline-block;opacity:.70;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"}.xcp-comment-tree.disable-comment-actions .comment-action-text:hover{color:#39c}.x-tree-arrows.xcp-comment-tree .x-tree-elbow-plus,.x-tree-arrows.xcp-comment-tree .x-tree-elbow-minus,.x-tree-arrows.xcp-comment-tree .x-tree-elbow-end-plus,.x-tree-arrows.xcp-comment-tree .x-tree-elbow-end-minus{background-image:url("xcp-core/icons/comment-trigger.png")}.x-tree-arrows.disable-comment-actions .x-grid-tree-node-expanded .x-tree-expander-over .x-tree-elbow-plus,.x-tree-arrows.disable-comment-actions .x-grid-tree-node-expanded .x-tree-expander-over .x-tree-elbow-end-plus{background-position:-16px,0}.xcp-comment-tree .comment-hr{clear:both;color:#ccc;opacity:.50;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";margin-top:10px;margin-bottom:-1px}.x-mask-msg.xcp-mask-error div{background-color:#FFDDDD;background-image:none;padding:5px 10px}.x-mask-msg.xcp-mask-info div{background-color:#EEFFEE;background-image:none;padding:5px 10px}.x-grid-row .xcp-comment-form-ct{background-color:transparent !important}.x-scroller-vertical .x-scroller-ct{overflow-y:scroll}.xcp-comment-tree .x-grid-dirty-cell{background-image:none}.xcp-comment-tree-add-comment{background-image:url("xcp-core/icons/comment_add.png")}.xcp-comment-tree-editor-label{color:gray}.xcp-comment-tree-hide-btn .comment-reply{display:none}.comment-body{line-height:normal;white-space:normal}.comment-body li{display:list-item;list-style:inherit;line-height:normal}.comment-body p{margin:5px 0 10px 0}.comment-body blockquote{margin-left:40px;margin-right:40px}.comment-body cite,.comment-body em,.comment-body var,.comment-body address{font-style:italic}.comment-body pre,.comment-body tt,.comment-body code,.comment-body kbd,.comment-body samp{font-family:monospace}.comment-body big{font-size:1.17em}.comment-body small,.comment-body sub,.comment-body sup{font-size:.83em}.comment-body sub{vertical-align:sub}.comment-body sup{vertical-align:super}.comment-body s,.comment-body strike,.comment-body del{text-decoration:line-through}.comment-body hr{border:1px inset}.comment-body dir,.comment-body menu,.comment-body dd{margin-left:40px}.comment-body ol ul,.comment-body ul ol,.comment-body ol ol{margin-top:0;margin-bottom:0}.comment-body u,.comment-body ins{text-decoration:underline}.comment-body strong{font-weight:bolder}.comment-body em strong,.comment-body strong em{font-weight:bold;font-style:italic}.comment-body ol,.comment-body ul,.comment-body dl{padding-left:40px}
+
+/* xcp_content_tree/resources/css/xcp/widget/tree/ContentTree.css */
+
+.xcp_content_tree-cls .x-tree-icon-parent{background:transparent no-repeat url("xcp-core/icons/folder_closed_blue_24.png");background-image:url("xcp-core/icons/folder_closed_blue_24.png");width:24px !important}.xcp_content_tree-cls .x-grid-tree-node-expanded .x-tree-icon-parent{background:transparent no-repeat url("xcp-core/icons/folder_open_blue_24.png");background-image:url("xcp-core/icons/folder_open_blue_24.png");width:24px !important}.xcp_content_tree-cls .x-tree-icon-leaf{background:transparent no-repeat url("xcp-core/icons/file_24.png");background-image:url("xcp-core/icons/file_24.png");width:24px !important}.xcp_content_tree-cls .x-grid-tree-loading .x-tree-icon-parent{background:transparent no-repeat url("../js/ext-4.0/resources/themes/images/default/tree/loading.gif");background-image:url("../js/ext-4.0/resources/themes/images/default/tree/loading.gif")}.xcp-content-tree-root img.x-tree-expander{display:none}.xcp-content-tree-root img.x-tree-icon{display:none}.xcp-content-tree-root .x-grid-cell-inner{padding-left:16px}.xcp-content-runtime-tree-root .x-tree-expander{display:none}.xcp-content-runtime-tree-root .x-grid-cell-inner{padding-left:16px !important}.xcp-not-supported .x-tree-icon{opacity:.5}
+
+/* xcp_nav_button/resources/css/xcp/widget/button/LinkButton.css */
+
+
+/* xcp_navigation_menu/resources/css/xcp/widget/toolbar/NavToolbar.css */
+
+.xcp_navigation_menu-cls .x-btn-default-toolbar-small-icon .x-xcp_navigation_menu-more-icon{background-image:url("xcp-core/icons/menu_more_default.png") !important;width:8px !important;background-repeat:no-repeat}
+
+/* xcp_validation_error_window/resources/css/xcp/widget/window/ErrorMessageWindow.css */
+
+.xcp-notification-error-icon{background-image:url(xcp-core/icons/error_misc.png);background-repeat:no-repeat}.xcp-notification-error{background-color:#ffffaa;border-color:#999999;border-style:solid;border-width:1px;z-index:99998!important;padding:7px;height:auto}.xcp-notify-close-icon{background-image:url(xcp-core/icons/close_normal.png);background-repeat:no-repeat;vertical-align:middle}.xcp-notify-close-icon-hover{background-image:url(xcp-core/icons/close_hover.png)}
+
+/* xcp_wizard/resources/css/xcp/widget/window/Wizard.css */
+
+.x-tool img{background-image:url("xcp-core/icons/xcp-sprites.png")}
