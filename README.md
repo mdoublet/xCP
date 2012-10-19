@@ -5,6 +5,8 @@ This repository intends to store xCP extensions (also known as xCelerators) deve
 
 Anyone who wants to participate is more than welcome.
 
-If you need assistance, please contact xCPSolutions@emc.com
+If you need assistance, please contact xCPSolutions@emc.com  
+
+
 
 
